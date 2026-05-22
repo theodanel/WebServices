@@ -7,6 +7,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
+    "server": "node soap/server.js",
+    "client": "node soap/client.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
